@@ -20,11 +20,11 @@
 		DD4002BF1F79508800E25E53 /* HZNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4002BE1F79508800E25E53 /* HZNavigationViewController.swift */; };
 		DD4002C11F7950F200E25E53 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4002C01F7950F200E25E53 /* DiscoverViewController.swift */; };
 		DD4002C31F79510800E25E53 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4002C21F79510800E25E53 /* ProfileViewController.swift */; };
-		DD4002C61F79569E00E25E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4002C51F79569D00E25E53 /* Assets.xcassets */; };
+		DD4AD2461F79EE030094799E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4AD2451F79EE020094799E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18CAC9A11DD180B9006A328E /* XMGTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMGTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CAC9A11DD180B9006A328E /* HZTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CAC9A41DD180B9006A328E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18CAC9A91DD180B9006A328E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18CAC9AE1DD180B9006A328E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		DD4002BE1F79508800E25E53 /* HZNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZNavigationViewController.swift; sourceTree = "<group>"; };
 		DD4002C01F7950F200E25E53 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		DD4002C21F79510800E25E53 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		DD4002C51F79569D00E25E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = XMGTV/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		DD4AD2451F79EE020094799E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = HZTV/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		18CAC9981DD180B9006A328E = {
 			isa = PBXGroup;
 			children = (
-				18CAC9A31DD180B9006A328E /* XMGTV */,
+				18CAC9A31DD180B9006A328E /* HZTV */,
 				18CAC9A21DD180B9006A328E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,12 +64,12 @@
 		18CAC9A21DD180B9006A328E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18CAC9A11DD180B9006A328E /* XMGTV.app */,
+				18CAC9A11DD180B9006A328E /* HZTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18CAC9A31DD180B9006A328E /* XMGTV */ = {
+		18CAC9A31DD180B9006A328E /* HZTV */ = {
 			isa = PBXGroup;
 			children = (
 				18CAC9B61DD1811A006A328E /* Classes */,
@@ -78,13 +78,13 @@
 				18CAC9AD1DD180B9006A328E /* LaunchScreen.storyboard */,
 				18CAC9B01DD180B9006A328E /* Info.plist */,
 			);
-			path = XMGTV;
+			path = HZTV;
 			sourceTree = "<group>";
 		};
 		18CAC9B61DD1811A006A328E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DD4002C51F79569D00E25E53 /* Assets.xcassets */,
+				DD4AD2451F79EE020094799E /* Assets.xcassets */,
 				18CAC9B71DD1811A006A328E /* Base */,
 				18CAC9BA1DD1811A006A328E /* Main */,
 				18CAC9B91DD1811A006A328E /* Home */,
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18CAC9A01DD180B9006A328E /* XMGTV */ = {
+		18CAC9A01DD180B9006A328E /* HZTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18CAC9B31DD180B9006A328E /* Build configuration list for PBXNativeTarget "XMGTV" */;
+			buildConfigurationList = 18CAC9B31DD180B9006A328E /* Build configuration list for PBXNativeTarget "HZTV" */;
 			buildPhases = (
 				18CAC99D1DD180B9006A328E /* Sources */,
 				18CAC99E1DD180B9006A328E /* Frameworks */,
@@ -170,9 +170,9 @@
 			);
 			dependencies = (
 			);
-			name = XMGTV;
+			name = HZTV;
 			productName = XMGTV;
-			productReference = 18CAC9A11DD180B9006A328E /* XMGTV.app */;
+			productReference = 18CAC9A11DD180B9006A328E /* HZTV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +191,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18CAC99C1DD180B9006A328E /* Build configuration list for PBXProject "XMGTV" */;
+			buildConfigurationList = 18CAC99C1DD180B9006A328E /* Build configuration list for PBXProject "HZTV" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -204,7 +204,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18CAC9A01DD180B9006A328E /* XMGTV */,
+				18CAC9A01DD180B9006A328E /* HZTV */,
 			);
 		};
 /* End PBXProject section */
@@ -218,7 +218,7 @@
 				18CAC9AF1DD180B9006A328E /* LaunchScreen.storyboard in Resources */,
 				18CAC9AA1DD180B9006A328E /* Main.storyboard in Resources */,
 				18CAC9C21DD18171006A328E /* Home.storyboard in Resources */,
-				DD4002C61F79569E00E25E53 /* Assets.xcassets in Resources */,
+				DD4AD2461F79EE030094799E /* Assets.xcassets in Resources */,
 				18CAC9C91DD182A4006A328E /* Profile.storyboard in Resources */,
 				18CAC9C71DD18219006A328E /* Discover.storyboard in Resources */,
 			);
@@ -377,7 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = XMGTV/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HZTV/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.520it.XMGTV;
@@ -391,7 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = XMGTV/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HZTV/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.520it.XMGTV;
@@ -403,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18CAC99C1DD180B9006A328E /* Build configuration list for PBXProject "XMGTV" */ = {
+		18CAC99C1DD180B9006A328E /* Build configuration list for PBXProject "HZTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18CAC9B11DD180B9006A328E /* Debug */,
@@ -412,7 +412,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18CAC9B31DD180B9006A328E /* Build configuration list for PBXNativeTarget "XMGTV" */ = {
+		18CAC9B31DD180B9006A328E /* Build configuration list for PBXNativeTarget "HZTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18CAC9B41DD180B9006A328E /* Debug */,
