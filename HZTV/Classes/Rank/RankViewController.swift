@@ -1,7 +1,7 @@
 
 //
 //  RankViewController.swift
-//  XMGTV
+//  HZTV
 //
 //  Created by LiuYihua on 2017/9/25.
 //  Copyright © 2017年 coderwhy. All rights reserved.

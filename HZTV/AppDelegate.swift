@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  XMGTV
+//  HZTV
 //
 //  Created by apple on 16/11/8.
 //  Copyright © 2016年 coderwhy. All rights reserved.
